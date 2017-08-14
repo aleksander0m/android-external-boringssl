@@ -280,6 +280,13 @@ crypto_sources := \
   src/crypto/x509v3/v3_skey.c\
   src/crypto/x509v3/v3_sxnet.c\
   src/crypto/x509v3/v3_utl.c\
+  src/decrepit/blowfish/blowfish.c\
+  src/decrepit/bio/base64_bio.c\
+  src/decrepit/rsa/rsa_decrepit.c\
+  src/decrepit/cast/cast.c\
+  src/decrepit/cast/cast_tables.c\
+  src/decrepit/des/cfb64ede.c\
+  src/decrepit/xts/xts.c\
 
 ssl_sources := \
   src/ssl/custom_extensions.c\
